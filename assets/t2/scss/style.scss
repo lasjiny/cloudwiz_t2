@@ -1,0 +1,168 @@
+/*! -----------------------------------------------------------------------------------
+
+    Template Name: Cuba Admin
+    Template URI: http://admin.pixelstrap.com/cuba/theme
+    Description: This is Admin theme
+    Author: Pixelstrap
+    Author URI: https://themeforest.net/user/pixelstrap
+
+-----------------------------------------------------------------------------------
+ */
+// *** utils ***
+@import "assets/t2/scss/utils/variables";
+
+:root {
+    --theme-deafult: #7366ff;
+    --theme-secondary: #f73164;
+    --light-background: rgba(242, 243, 247, 0.7);
+    --body-font-color: #2F2F3B;
+    --chart-border: #ECF3FA;
+    --recent-chart-bg: #FCFCFD;
+    --light-bg: #F6F7F9;
+    --white: #fff;
+    --light2: #F5F6F9;
+    --sidebar-border: rgba(0,0,0,0.1);
+    --chart-text-color: rgba(82, 82, 108, 0.8);
+    --recent-dashed-border: rgba(82, 82, 108, 0.3);
+    --chart-dashed-border: rgba(82, 82, 108, 0.2);
+    --chart-progress-light: rgba(82, 82, 108, 0.1);
+    --recent-box-bg: #F2F4F7;
+    --recent-border: rgba(97, 101, 122, 0.25);
+    --course-light-btn: #F2F3F7;
+    --course-bg: #F7F7F7;
+    --balance-profie-bg: #E0DFEF;
+    --view-grid-bg: #ECF3FA80;
+    --view-border-marker: #cfcdfc;
+
+    --fc-button-bg-color: var(--theme-deafult);
+    --fc-button-active-bg-color: var(--theme-deafult);
+    --fc-button-active-border-color: var(--theme-deafult);
+    --fc-button-border-color: var(--theme-deafult); 
+    --fc-button-hover-bg-color: var(--theme-deafult);
+    --fc-button-hover-border-color: var(--theme-deafult);
+}
+
+body[class='dark-only'] {
+    --light-background: rgba(31, 32, 40 , 0.65);
+    --recent-chart-bg: #262932;
+    --light-bg: #1d1e26;
+    --white: #262932;
+    --sidebar-border: rgba(255,255,255,0.1);
+    --light2: #1d1e26;
+    --chart-border: #374558;
+    --recent-box-bg: #1d1e26;
+    --recent-border: #374558;
+    --body-font-color: rgba(255,255,255,0.6);
+    --course-light-btn: var(--light-bg);
+    --view-grid-bg: var(--light-bg);
+    --view-border-marker: #2c2c45d4;
+}
+
+// *** base ***
+@import "assets/t2/scss/base/reset";
+@import "assets/t2/scss/base/typography";
+
+
+//  *** components ***
+@import "assets/t2/scss/components/according";
+@import "assets/t2/scss/components/alert";
+@import "assets/t2/scss/components/avatars";
+@import "assets/t2/scss/components/badge";
+@import "assets/t2/scss/components/bookmark";
+@import "assets/t2/scss/components/breadcrumb";
+@import "assets/t2/scss/components/builders";
+
+@import "assets/t2/scss/components/buttons";
+
+@import "assets/t2/scss/components/card";
+// @import "components/color";
+@import "assets/t2/scss/components/datatable";
+@import "assets/t2/scss/components/datepicker";
+@import "assets/t2/scss/components/dropdown";
+@import "assets/t2/scss/components/form-builder";
+@import "assets/t2/scss/components/form-input";
+@import "assets/t2/scss/components/form-wizard";
+@import "assets/t2/scss/components/forms";
+@import "assets/t2/scss/components/form_builder-2";
+@import "assets/t2/scss/components/icons";
+@import "assets/t2/scss/components/list";
+@import "assets/t2/scss/components/loader";
+@import "assets/t2/scss/components/popover";
+@import "assets/t2/scss/components/print";
+@import "assets/t2/scss/components/radio";
+@import "assets/t2/scss/components/ribbon";
+@import "assets/t2/scss/components/switch";
+@import "assets/t2/scss/components/tab";
+@import "assets/t2/scss/components/table";
+@import "assets/t2/scss/components/touchspin";
+@import "assets/t2/scss/components/tour";
+@import "assets/t2/scss/components/tree";
+@import "assets/t2/scss/components/typeahead-search";
+@import "assets/t2/scss/components/scrollbar";
+
+
+
+//	*** pages ***
+
+@import "assets/t2/scss/pages/blog";
+@import "assets/t2/scss/pages/bookmark-app";
+@import "assets/t2/scss/pages/cart";
+@import "assets/t2/scss/pages/chart";
+@import "assets/t2/scss/pages/chat";
+@import "assets/t2/scss/pages/checkout";
+@import "assets/t2/scss/pages/comingsoon";
+@import "assets/t2/scss/pages/contacts";
+@import "assets/t2/scss/pages/dashboard_2";
+@import "assets/t2/scss/pages/dashboard_3";
+@import "assets/t2/scss/pages/dashboard_4";
+@import "assets/t2/scss/pages/dashboard_5";
+@import "assets/t2/scss/pages/dashboard_default";
+@import "assets/t2/scss/pages/ecommerce";
+@import "assets/t2/scss/pages/email-application";
+@import "assets/t2/scss/pages/errorpage";
+@import "assets/t2/scss/pages/faq";
+@import "assets/t2/scss/pages/file";
+@import "assets/t2/scss/pages/gallery";
+@import "assets/t2/scss/pages/internationalization";
+@import "assets/t2/scss/pages/job-search";
+@import "assets/t2/scss/pages/jsgrid";
+@import "assets/t2/scss/pages/kanban";
+@import "assets/t2/scss/pages/knowledgebase";
+@import "assets/t2/scss/pages/landing";
+@import "assets/t2/scss/pages/language";
+@import "assets/t2/scss/pages/learning";
+@import "assets/t2/scss/pages/login";
+@import "assets/t2/scss/pages/megaoption";
+@import "assets/t2/scss/pages/order-history";
+@import "assets/t2/scss/pages/page";
+@import "assets/t2/scss/pages/pricing";
+@import "assets/t2/scss/pages/progress";
+@import "assets/t2/scss/pages/projectlist";
+@import "assets/t2/scss/pages/social-app";
+@import "assets/t2/scss/pages/task";
+@import "assets/t2/scss/pages/timeline-v";
+@import "assets/t2/scss/pages/timeliny";
+@import "assets/t2/scss/pages/user-profile";
+@import "assets/t2/scss/pages/wishlist";
+@import "assets/t2/scss/pages/kanban";
+@import "assets/t2/scss/vendors/sticky";
+@import "assets/t2/scss/vendors/todo";
+
+
+/* ---------------------
+	*** themes ***
+-----------------------*/
+@import "assets/t2/scss/themes/dark";
+@import "assets/t2/scss/themes/theme-customizer";
+@import "assets/t2/scss/themes/update";
+// *** layout *** 
+
+@import "assets/t2/scss/layout/footer";
+@import "assets/t2/scss/layout/grid";
+@import "assets/t2/scss/layout/header";
+@import "assets/t2/scss/layout/navs";
+@import "assets/t2/scss/layout/search";
+@import "assets/t2/scss/layout/select2";
+@import "assets/t2/scss/layout/sidebar";
+@import "assets/t2/scss/layout/rtl";
+@import "assets/t2/scss/layout/box-layout";

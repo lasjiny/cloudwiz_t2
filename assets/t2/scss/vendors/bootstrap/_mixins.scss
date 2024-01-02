@@ -1,0 +1,42 @@
+// Toggles
+//
+// Used in conjunction with global variables to enable certain theme features.
+
+// Vendor
+@import "assets/t2/scss/vendors/bootstrap/vendor/rfs";
+
+// Deprecate
+@import "assets/t2/scss/vendors/bootstrap/mixins/deprecate";
+
+// Helpers
+@import "assets/t2/scss/vendors/bootstrap/mixins/breakpoints";
+@import "assets/t2/scss/vendors/bootstrap/mixins/color-scheme";
+@import "assets/t2/scss/vendors/bootstrap/mixins/image";
+@import "assets/t2/scss/vendors/bootstrap/mixins/resize";
+@import "assets/t2/scss/vendors/bootstrap/mixins/visually-hidden";
+@import "assets/t2/scss/vendors/bootstrap/mixins/reset-text";
+@import "assets/t2/scss/vendors/bootstrap/mixins/text-truncate";
+
+// Utilities
+@import "assets/t2/scss/vendors/bootstrap/mixins/utilities";
+
+// Components
+@import "assets/t2/scss/vendors/bootstrap/mixins/alert";
+@import "assets/t2/scss/vendors/bootstrap/mixins/buttons";
+@import "assets/t2/scss/vendors/bootstrap/mixins/caret";
+@import "assets/t2/scss/vendors/bootstrap/mixins/pagination";
+@import "assets/t2/scss/vendors/bootstrap/mixins/lists";
+@import "assets/t2/scss/vendors/bootstrap/mixins/list-group";
+@import "assets/t2/scss/vendors/bootstrap/mixins/forms";
+@import "assets/t2/scss/vendors/bootstrap/mixins/table-variants";
+
+// Skins
+@import "assets/t2/scss/vendors/bootstrap/mixins/border-radius";
+@import "assets/t2/scss/vendors/bootstrap/mixins/box-shadow";
+@import "assets/t2/scss/vendors/bootstrap/mixins/gradients";
+@import "assets/t2/scss/vendors/bootstrap/mixins/transition";
+
+// Layout
+@import "assets/t2/scss/vendors/bootstrap/mixins/clearfix";
+@import "assets/t2/scss/vendors/bootstrap/mixins/container";
+@import "assets/t2/scss/vendors/bootstrap/mixins/grid";
