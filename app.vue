@@ -1,5 +1,5 @@
 <template>
-    <NuxtLayout>
+    <NuxtLayout name="default-t2">
         <Head>
             <Title>Cuba</Title>
         </Head>

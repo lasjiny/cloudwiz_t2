@@ -52,12 +52,12 @@
 import { mapState } from "pinia";
 
 import { layoutClasses } from "../constants/t2/layout";
-import Header from "@/components/t2/header";
-import Sidebar from "@/components/t2/sidebar";
+import Header from "~/components/t2/header/index.vue";
+import Sidebar from "~/components/t2/sidebar/index.vue";
 import Footer from "~/components/t2/footer.vue";
 import { useLayoutStore } from "~/store/t2/layout";
 import { useMenuStore } from "~/store/t2/menu";
-import Customizer from "@/components/t2/customizer";
+import Customizer from "~/components/t2/customizer/index.vue";
 import TapTop from "~/components/t2/tapTop.vue";
 import { useWindowScroll } from "@vueuse/core";
 

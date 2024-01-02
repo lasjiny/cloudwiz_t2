@@ -337,7 +337,7 @@
       "bookmark": true
     },
     {
-      "path": "/t2/calenderView",
+      "path": "/calenderView",
       "title": "Calendar",
       "icon": "stroke-calendar",
       "iconf":"fill-calender",
@@ -990,7 +990,7 @@
       "type": "headtitle"
     },
     {
-      "path": "/t2/sample-page",
+      "path": "/sample-page",
       "title": "Sample page",
       "icon": "stroke-sample-page",
       "iconf":"fill-sample-page",

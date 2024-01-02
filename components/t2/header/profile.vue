@@ -11,10 +11,10 @@
     </div>
     <ul class="profile-dropdown onhover-show-div">
       <li>
-        <nuxt-link :to="'/users/profile'"><vue-feather type="user"></vue-feather><span>Account </span></nuxt-link>
+        <nuxt-link :to="'/t2/users/profile'"><vue-feather type="user"></vue-feather><span>Account </span></nuxt-link>
       </li>
       <li>
-        <nuxt-link :to="'/email/readMail'"><vue-feather type="mail"></vue-feather><span>Inbox</span></nuxt-link>
+        <nuxt-link :to="'/t2/email/readMail'"><vue-feather type="mail"></vue-feather><span>Inbox</span></nuxt-link>
       </li>
       <li>
         <nuxt-link :to="'/app/task'"><vue-feather type="file-text"></vue-feather><span>Taskboard</span></nuxt-link>
